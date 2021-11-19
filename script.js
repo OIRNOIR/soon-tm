@@ -1,7 +1,7 @@
 document.addEventListener('load', () => {
   const urlParams = new URLSearchParams(location.search);
   if (urlParams.has('to')){
-    window.location.replace("https://soon-tm.glitch.me/?q=" + btoa(urlParams.get('to')));
+    window.location.replace("/?q=" + btoa(urlParams.get('to')));
   } else if (urlParams.has('q')){
     window.history.replaceState(null, "", "/");
     setTimeout(() => {
@@ -9,7 +9,7 @@ document.addEventListener('load', () => {
       if (!url.startsWith("http")){
         url = "https://" + url;
       }
-      window.location.replace(url);
+      window.location.href = url;
     }, 10000);
   }
 });
