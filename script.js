@@ -1,4 +1,4 @@
-document.onload = () => {
+window.onload = () => {
   console.log("1");
   const urlParams = new URLSearchParams(location.search);
   console.log("2");
