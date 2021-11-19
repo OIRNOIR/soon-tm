@@ -1,0 +1,14 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+}
+
+.centralize {
+  text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #2a2a2a;
+    color: #fff;
+  }
+}
