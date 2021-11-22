@@ -6,17 +6,17 @@ body {
   text-align: center;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #2a2a2a;
-    color: #fff;
-  }
-}
-
 #generated {
   display: none;
 }
 
 code {
   word-wrap: break-word;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #2a2a2a;
+    color: #fff;
+  }
 }
