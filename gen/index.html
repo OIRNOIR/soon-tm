@@ -26,9 +26,14 @@
       Soon™
     </h1>
     <p class="centralize">
-      You may be looking for something. Fear not, it's coming Soon™.e
-      <br><br><br><br><br><br><br><br><br><br><br><br>
-      <img src="/soontm.png">
+      Generate a soon™ link
+      <input type="url" id="link" name="link" placeholder="https://example.com/">
+      <button id="generate" class="button" onclick="generate();">Generate</button>
     </p>
+    <div id="generated" class="centralize">
+      <h1>Your generated link:</h1>
+      <code id="output"></code>
+      <button onclick="copyLink()">Copy</button>
+    </div>
   </body>
 </html>

@@ -12,3 +12,7 @@ body {
     color: #fff;
   }
 }
+
+.generated {
+  display: none;
+}
