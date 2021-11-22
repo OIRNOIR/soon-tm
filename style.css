@@ -16,3 +16,7 @@ body {
 #generated {
   display: none;
 }
+
+code {
+  word-wrap: break-word;
+}
